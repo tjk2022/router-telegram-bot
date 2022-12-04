@@ -26,7 +26,8 @@ Since ASUS deletes all files after a restart, you need to add a flash drive to y
 - Execute shell:
 
 ```shell
-bash <(wget -qO- https://raw.githubusercontent.com/oleksiikhr/router-telegram-bot/main/setup.sh) API_TOKEN CHAT_IDS
+wget -O - https://raw.githubusercontent.com/oleksiikhr/router-telegram-bot/main/setup.sh > setup.sh
+sh ./setup.sh API_TOKEN CHAT_IDS
 ```
 
 `API_TOKEN` - token from BotFather
