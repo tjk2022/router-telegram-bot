@@ -5,12 +5,32 @@
 
 > A very simple script under the telegram bot for the router, which will let you know if the light/internet at home.
 
-## Setup
+## How it works
+
+**No need to re-flash the router, you can use the native firmware.**
 
 *ASUS RT-AC66U B1 was used.*
 
-- Open SSH access
-- ??
+The cron runs and executes the script every minute. The bot responds only to users who are specified in `CHAT_IDS`.
+
+Since ASUS deletes all files after a restart, you need to add a flash drive to your router, this will restore the task cron.
+
+## Setup
+
+- Create a new bot via [BotFather](https://t.me/BotFather)
+- Allow SSH access and connect to the router
+- Execute shell:
+
+```shell
+bash <(wget -qO- https://raw.githubusercontent.com/oleksiikhr/router-telegram-bot/main/setup.sh) API_TOKEN CHAT_IDS
+```
+
+`API_TOKEN` - token from BotFather
+
+`CHAT_IDS` - chat IDs separated by a comma ([what my ID](https://t.me/userinfobot))
+
+- Start a chat with your bot
+- Connect the flash drive to your router
 
 ## License
 

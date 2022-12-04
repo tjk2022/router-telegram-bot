@@ -13,7 +13,7 @@ var (
 )
 
 func ParseArguments() error {
-	flag.StringVar(&TelegramToken, "token", "", "Telegram bot TelegramToken")
+	flag.StringVar(&TelegramToken, "token", "", "Telegram bot token")
 	chatIdsInput := flag.String("chatIds", "", "Chat IDs separated by a comma")
 
 	flag.Parse()
