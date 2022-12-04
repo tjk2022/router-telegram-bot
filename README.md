@@ -3,6 +3,10 @@
 [![Github Build](https://github.com/oleksiikhr/router-telegram-bot/actions/workflows/build.yml/badge.svg)](https://github.com/oleksiikhr/router-telegram-bot/actions/workflows/build.yml)
 [![Support Ukraine](https://img.shields.io/badge/Support-Ukraine-FFD500?style=flat&labelColor=005BBB)](https://savelife.in.ua/en/donate-en/)
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/oleksiikhr/router-telegram-bot/main/docs/image.png?raw=true" alt="Router Telegram Bot" height="400">
+</p>
+
 > A very simple script under the telegram bot for the router, which will let you know if the light/internet at home.
 
 ## How it works
