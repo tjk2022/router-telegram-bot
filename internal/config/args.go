@@ -13,8 +13,8 @@ var (
 )
 
 func ParseArguments() error {
-	flag.StringVar(&TelegramToken, "token", "", "5815872851:AAGPUcFOa9QTu_bzGrh194nL7VVYD3eh6x8")
-	chatIdsInput := flag.String("chatIds", "", "124586195")
+	flag.StringVar(&TelegramToken, "token", "", "token")
+	chatIdsInput := flag.String("chatIds", "", "ccccc")
 
 	flag.Parse()
 
